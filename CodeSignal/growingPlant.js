@@ -6,7 +6,6 @@ function solution(upSpeed, downSpeed, desiredHeight) {
     while (height < desiredHeight) {
         height = height - downSpeed + upSpeed;
         days++;
-        console.log(height, days);
     }
     return days;
 }
