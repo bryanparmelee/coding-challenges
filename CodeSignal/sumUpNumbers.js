@@ -2,11 +2,7 @@
 
 function solution(inputString) {
     const numbers = inputString.match(/\d+/g);
-    console.log(numbers);
-    if (numbers === null) {
-        return 0;
-    } else {
-        return numbers.reduce((a, b) => Number(a) + Number(b), 0);
-    }
+    return numbers === null ? 0 :
+    numbers.reduce((a, b) => Number(a) + Number(b), 0);    
 }
 
