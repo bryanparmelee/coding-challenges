@@ -24,8 +24,6 @@ function solution(grid) {
         cols.push(col);
     }
 
-    
-    
     const colCheck = cols.map(col => nineCheck(col));
 
     let grids = [];
@@ -43,8 +41,6 @@ function solution(grid) {
     grids.push(grid1, grid2, grid3, grid4, grid5, grid6, grid7, grid8, grid9);
     
     const gridsCheck = grids.map(g => nineCheck(g));
-    console.log(grids);
-    console.log(gridsCheck);
     
     function truthCheck(arr) {
         return arr.includes(false) ? false: true;
