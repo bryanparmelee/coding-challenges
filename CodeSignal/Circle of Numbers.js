@@ -13,3 +13,7 @@ function solution(n, firstNumber) {
     const updatedCircle = [...firstSlice, ...secondSlice];
     return updatedCircle[halfway];
 }
+
+function solution2(n, firstNumber) {
+    return (firstNumber + n / 2) % n;
+    }
