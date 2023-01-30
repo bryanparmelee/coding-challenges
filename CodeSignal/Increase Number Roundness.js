@@ -12,3 +12,7 @@ function solution(n) {
     let preceeding = str.substring(0, trailing);
     return preceeding.includes('0');
 }
+
+function solution2(n) {
+    return /0[1-9]/.test(n);
+}
