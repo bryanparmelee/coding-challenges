@@ -7,7 +7,7 @@ function solution(candlesNumber, makeNew) {
         burned += candlesNumber;
         leftovers += candlesNumber;
         candlesNumber = Math.floor(leftovers / makeNew);
-        leftovers = leftovers % makeNew; 
+        leftovers %= makeNew; 
     }
     return burned;
 }
