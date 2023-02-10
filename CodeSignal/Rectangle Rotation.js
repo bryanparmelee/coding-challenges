@@ -7,6 +7,3 @@ function solution(a, b) {
     const rectInt = [2 * Math.floor(ld) + (ld % 1 < 0.5 ? 0 : 2), 2 * Math.floor(sd) + (sd % 1 < 0.5 ? 0 : 2)];
     return rectExt[0] * rectExt[1] + rectInt[0] * rectInt[1];
 }
-
-
-console.log()
