@@ -15,5 +15,3 @@ function solution(a, q) {
     return sum + x * counts[i];
   }, 0);
 }
-
-console.log(solution());
