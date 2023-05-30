@@ -10,5 +10,3 @@ function expandedForm(num) {
   });
   return nArr.filter((n) => n !== "0").join(" + ");
 }
-
-console.log(expandedForm(70304));
